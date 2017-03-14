@@ -1,0 +1,12 @@
+AuthType Basic
+AuthName "Protected"
+AuthUserFile C:\wamp\www\kta16e\.htpasswd
+Require valid-user
+
+<files "*.txt">
+
+deny from all
+
+</files>
+
+# http://www.htaccesstools.com/ laseme parooli genereerida
